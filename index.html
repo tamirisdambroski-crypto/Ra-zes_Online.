@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p class="subtitle">Equilíbrio entre produção e meio ambiente</p>
+            <blockquote class="frase-impacto">
+                "Produzir com responsabilidade é garantir o futuro das próximas gerações."
+            </blockquote>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="section grid-2">
+            <div class="text-content">
+                <h2>🚜 O que é o Agronegócio?</h2>
+                <p>O agronegócio vai muito além de plantar e colher. Ele envolve toda a cadeia produtiva que movimenta a economia, gera empregos e leva alimento do campo até a mesa de milhões de pessoas todos os dias.</p>
+                <ul>
+                    <li><strong>Importância para a alimentação:</strong> Com a população global em crescimento, o agro tem a missão vital de produzir alimentos de forma eficiente e segura.</li>
+                    <li><strong>Principais produções do Paraná:</strong> O estado destaca-se nacionalmente na produção de soja, milho, trigo e proteína animal (frangos, suínos e leite).</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="agro.jpg" alt="Plantação e campo verdejante">
+            </div>
+        </section>
+
+        <section class="section grid-2 reverse">
+            <div class="text-content">
+                <h2>🌳 Sustentabilidade no Campo</h2>
+                <p>É totalmente possível produzir em alta escala e, ao mesmo tempo, proteger o planeta. A sustentabilidade é o pilar que garante a longevidade do agronegócio.</p>
+                <ul>
+                    <li><strong>Preservação das florestas:</strong> Manutenção de Áreas de Preservação Permanente (APPs) e Reservas Legais.</li>
+                    <li><strong>Uso consciente da água:</strong> Sistemas de irrigação inteligente e captação da água da chuva.</li>
+                    <li><strong>Proteção do solo:</strong> Práticas como o Plantio Direto e rotação de culturas para evitar a erosão.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="sustentabilidade.jpg" alt="Trator trabalhando em campo sustentável">
+            </div>
+        </section>
+
+        <section class="section grid-2">
+            <div class="text-content">
+                <h2>💡 Tecnologia e Inovação</h2>
+                <p>O campo hoje é hipertecnológico. A inovação ajuda a produzir mais utilizando menos recursos naturais.</p>
+                <ul>
+                    <li><strong>Drones na agricultura:</strong> Monitoram a saúde das lavouras e identificam pragas rapidamente.</li>
+                    <li><strong>Máquinas modernas:</strong> Tratores autônomos que otimizam o tempo e reduzem combustível.</li>
+                    <li><strong>Agricultura de precisão:</strong> Uso de dados e sensores para aplicar insumos apenas onde é necessário.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="drone.jpg" alt="Drone sobrevoando plantação tecnológica">
+            </div>
+        </section>
+
+        <section class="section faep-section">
+            <h2>🏢 O Papel da FAEP: Apoio ao Produtor</h2>
+            <p>A <strong>FAEP (Federação da Agricultura do Estado do Paraná)</strong> atua diretamente ao lado de quem trabalha na terra, unindo forças para que o equilíbrio entre produção e sustentabilidade aconteça na prática.</p>
+            <div class="faep-cards">
+                <div class="card">
+                    <h3>Capacitação</h3>
+                    <p>Através do SENAR-PR, oferece cursos técnicos gratuitos que ensinam novas tecnologias e gestão ambiental.</p>
+                </div>
+                <div class="card">
+                    <h3>Defesa dos Direitos</h3>
+                    <p>Representa os interesses dos produtores paranaenses junto ao governo para melhorias nas leis e infraestrutura.</p>
+                </div>
+                <div class="card">
+                    <h3>Assistência</h3>
+                    <p>Disponibiliza orientações jurídicas, previsões do tempo e cotações de mercado para decisões seguras.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section quiz-section">
+            <h2>📝 Teste seus Conhecimentos!</h2>
+            <p>Responda às 3 perguntas abaixo com base no que você aprendeu.</p>
+            
+            <form id="quiz-form">
+                <div class="quiz-item">
+                    <p class="question">1. Qual técnica é muito usada no Paraná para evitar a erosão do solo?</p>
+                    <label><input type="radio" name="q1" value="errado"> Queimada controlada</label>
+                    <label><input type="radio" name="q1" value="correto"> Plantio Direto</label>
+                    <label><input type="radio" name="q1" value="errado"> Arado profundo contínuo</label>
+                </div>
+
+                <div class="quiz-item">
+                    <p class="question">2. Como os drones ajudam na sustentabilidade?</p>
+                    <label><input type="radio" name="q2" value="errado"> Fazem chover no campo</label>
+                    <label><input type="radio" name="q2" value="correto"> Identificam pragas para aplicar insumos apenas onde precisa</label>
+                    <label><input type="radio" name="q2" value="errado"> Eliminam insetos por impacto mecânico</label>
+                </div>
+
+                <div class="quiz-item">
+                    <p class="question">3. De que forma a FAEP/SENAR-PR ajuda diretamente o produtor?</p>
+                    <label><input type="radio" name="q3" value="errado"> Doando tratores pesados</label>
+                    <label><input type="radio" name="q3" value="errado"> Aplicando multas ambientais</label>
+                    <label><input type="radio" name="q3" value="correto"> Oferecendo cursos técnicos e treinamentos gratuitos</label>
+                </div>
+
+                <button type="button" onclick="calcularResultado()">Enviar Respostas</button>
+            </form>
+
+            <div id="resultado" class="resultado-box hidden"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Agro Forte, Futuro Sustentável. Desenvolvido para o GitHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
